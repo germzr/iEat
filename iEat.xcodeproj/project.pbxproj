@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776B0E12190CFE7A003DE64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E11190CFE7A003DE64B /* Foundation.framework */; };
+		776B0E14190CFE7A003DE64B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E13190CFE7A003DE64B /* CoreGraphics.framework */; };
+		776B0E16190CFE7A003DE64B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E15190CFE7A003DE64B /* UIKit.framework */; };
+		776B0E1C190CFE7A003DE64B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 776B0E1A190CFE7A003DE64B /* InfoPlist.strings */; };
+		776B0E1E190CFE7A003DE64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B0E1D190CFE7A003DE64B /* main.m */; };
+		776B0E22190CFE7A003DE64B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B0E21190CFE7A003DE64B /* AppDelegate.m */; };
+		776B0E25190CFE7A003DE64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776B0E23190CFE7A003DE64B /* Main.storyboard */; };
+		776B0E28190CFE7A003DE64B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B0E27190CFE7A003DE64B /* ViewController.m */; };
+		776B0E2A190CFE7A003DE64B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776B0E29190CFE7A003DE64B /* Images.xcassets */; };
+		776B0E31190CFE7A003DE64B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E30190CFE7A003DE64B /* XCTest.framework */; };
+		776B0E32190CFE7A003DE64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E11190CFE7A003DE64B /* Foundation.framework */; };
+		776B0E33190CFE7A003DE64B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776B0E15190CFE7A003DE64B /* UIKit.framework */; };
+		776B0E3B190CFE7A003DE64B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 776B0E39190CFE7A003DE64B /* InfoPlist.strings */; };
+		776B0E3D190CFE7A003DE64B /* iEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B0E3C190CFE7A003DE64B /* iEatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776B0E34190CFE7A003DE64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776B0E06190CFE7A003DE64B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776B0E0D190CFE7A003DE64B;
+			remoteInfo = iEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776B0E0E190CFE7A003DE64B /* iEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B0E11190CFE7A003DE64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		776B0E13190CFE7A003DE64B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		776B0E15190CFE7A003DE64B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		776B0E19190CFE7A003DE64B /* iEat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iEat-Info.plist"; sourceTree = "<group>"; };
+		776B0E1B190CFE7A003DE64B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		776B0E1D190CFE7A003DE64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776B0E1F190CFE7A003DE64B /* iEat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iEat-Prefix.pch"; sourceTree = "<group>"; };
+		776B0E20190CFE7A003DE64B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		776B0E21190CFE7A003DE64B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		776B0E24190CFE7A003DE64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776B0E26190CFE7A003DE64B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		776B0E27190CFE7A003DE64B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		776B0E29190CFE7A003DE64B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		776B0E2F190CFE7A003DE64B /* iEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B0E30190CFE7A003DE64B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		776B0E38190CFE7A003DE64B /* iEatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iEatTests-Info.plist"; sourceTree = "<group>"; };
+		776B0E3A190CFE7A003DE64B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		776B0E3C190CFE7A003DE64B /* iEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776B0E0B190CFE7A003DE64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E14190CFE7A003DE64B /* CoreGraphics.framework in Frameworks */,
+				776B0E16190CFE7A003DE64B /* UIKit.framework in Frameworks */,
+				776B0E12190CFE7A003DE64B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B0E2C190CFE7A003DE64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E31190CFE7A003DE64B /* XCTest.framework in Frameworks */,
+				776B0E33190CFE7A003DE64B /* UIKit.framework in Frameworks */,
+				776B0E32190CFE7A003DE64B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776B0E05190CFE7A003DE64B = {
+			isa = PBXGroup;
+			children = (
+				776B0E17190CFE7A003DE64B /* iEat */,
+				776B0E36190CFE7A003DE64B /* iEatTests */,
+				776B0E10190CFE7A003DE64B /* Frameworks */,
+				776B0E0F190CFE7A003DE64B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776B0E0F190CFE7A003DE64B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E0E190CFE7A003DE64B /* iEat.app */,
+				776B0E2F190CFE7A003DE64B /* iEatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776B0E10190CFE7A003DE64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E11190CFE7A003DE64B /* Foundation.framework */,
+				776B0E13190CFE7A003DE64B /* CoreGraphics.framework */,
+				776B0E15190CFE7A003DE64B /* UIKit.framework */,
+				776B0E30190CFE7A003DE64B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		776B0E17190CFE7A003DE64B /* iEat */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E20190CFE7A003DE64B /* AppDelegate.h */,
+				776B0E21190CFE7A003DE64B /* AppDelegate.m */,
+				776B0E23190CFE7A003DE64B /* Main.storyboard */,
+				776B0E26190CFE7A003DE64B /* ViewController.h */,
+				776B0E27190CFE7A003DE64B /* ViewController.m */,
+				776B0E29190CFE7A003DE64B /* Images.xcassets */,
+				776B0E18190CFE7A003DE64B /* Supporting Files */,
+			);
+			path = iEat;
+			sourceTree = "<group>";
+		};
+		776B0E18190CFE7A003DE64B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E19190CFE7A003DE64B /* iEat-Info.plist */,
+				776B0E1A190CFE7A003DE64B /* InfoPlist.strings */,
+				776B0E1D190CFE7A003DE64B /* main.m */,
+				776B0E1F190CFE7A003DE64B /* iEat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		776B0E36190CFE7A003DE64B /* iEatTests */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E3C190CFE7A003DE64B /* iEatTests.m */,
+				776B0E37190CFE7A003DE64B /* Supporting Files */,
+			);
+			path = iEatTests;
+			sourceTree = "<group>";
+		};
+		776B0E37190CFE7A003DE64B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776B0E38190CFE7A003DE64B /* iEatTests-Info.plist */,
+				776B0E39190CFE7A003DE64B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776B0E0D190CFE7A003DE64B /* iEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776B0E40190CFE7A003DE64B /* Build configuration list for PBXNativeTarget "iEat" */;
+			buildPhases = (
+				776B0E0A190CFE7A003DE64B /* Sources */,
+				776B0E0B190CFE7A003DE64B /* Frameworks */,
+				776B0E0C190CFE7A003DE64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iEat;
+			productName = iEat;
+			productReference = 776B0E0E190CFE7A003DE64B /* iEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776B0E2E190CFE7A003DE64B /* iEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776B0E43190CFE7A003DE64B /* Build configuration list for PBXNativeTarget "iEatTests" */;
+			buildPhases = (
+				776B0E2B190CFE7A003DE64B /* Sources */,
+				776B0E2C190CFE7A003DE64B /* Frameworks */,
+				776B0E2D190CFE7A003DE64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776B0E35190CFE7A003DE64B /* PBXTargetDependency */,
+			);
+			name = iEatTests;
+			productName = iEatTests;
+			productReference = 776B0E2F190CFE7A003DE64B /* iEatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776B0E06190CFE7A003DE64B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "German Zuniga";
+				TargetAttributes = {
+					776B0E2E190CFE7A003DE64B = {
+						TestTargetID = 776B0E0D190CFE7A003DE64B;
+					};
+				};
+			};
+			buildConfigurationList = 776B0E09190CFE7A003DE64B /* Build configuration list for PBXProject "iEat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776B0E05190CFE7A003DE64B;
+			productRefGroup = 776B0E0F190CFE7A003DE64B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776B0E0D190CFE7A003DE64B /* iEat */,
+				776B0E2E190CFE7A003DE64B /* iEatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776B0E0C190CFE7A003DE64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E2A190CFE7A003DE64B /* Images.xcassets in Resources */,
+				776B0E1C190CFE7A003DE64B /* InfoPlist.strings in Resources */,
+				776B0E25190CFE7A003DE64B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B0E2D190CFE7A003DE64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E3B190CFE7A003DE64B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776B0E0A190CFE7A003DE64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E28190CFE7A003DE64B /* ViewController.m in Sources */,
+				776B0E22190CFE7A003DE64B /* AppDelegate.m in Sources */,
+				776B0E1E190CFE7A003DE64B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B0E2B190CFE7A003DE64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B0E3D190CFE7A003DE64B /* iEatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776B0E35190CFE7A003DE64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776B0E0D190CFE7A003DE64B /* iEat */;
+			targetProxy = 776B0E34190CFE7A003DE64B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776B0E1A190CFE7A003DE64B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776B0E1B190CFE7A003DE64B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		776B0E23190CFE7A003DE64B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776B0E24190CFE7A003DE64B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776B0E39190CFE7A003DE64B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776B0E3A190CFE7A003DE64B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776B0E3E190CFE7A003DE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		776B0E3F190CFE7A003DE64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776B0E41190CFE7A003DE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEat/iEat-Prefix.pch";
+				INFOPLIST_FILE = "iEat/iEat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		776B0E42190CFE7A003DE64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEat/iEat-Prefix.pch";
+				INFOPLIST_FILE = "iEat/iEat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		776B0E44190CFE7A003DE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iEat.app/iEat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEat/iEat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iEatTests/iEatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		776B0E45190CFE7A003DE64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iEat.app/iEat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEat/iEat-Prefix.pch";
+				INFOPLIST_FILE = "iEatTests/iEatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776B0E09190CFE7A003DE64B /* Build configuration list for PBXProject "iEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B0E3E190CFE7A003DE64B /* Debug */,
+				776B0E3F190CFE7A003DE64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776B0E40190CFE7A003DE64B /* Build configuration list for PBXNativeTarget "iEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B0E41190CFE7A003DE64B /* Debug */,
+				776B0E42190CFE7A003DE64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		776B0E43190CFE7A003DE64B /* Build configuration list for PBXNativeTarget "iEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B0E44190CFE7A003DE64B /* Debug */,
+				776B0E45190CFE7A003DE64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776B0E06190CFE7A003DE64B /* Project object */;
+}
